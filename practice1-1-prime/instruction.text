@@ -1,0 +1,10 @@
+Write a function that calculates the sum of all prime numbers up to 
+and including a given number n. The function should:
+
+Accept a positive integer n as input.
+Calculate the sum of all prime numbers from 2 to n, inclusive.
+Return the sum.
+For example:
+
+For n = 10, the sum of prime numbers up to 10 is 2 + 3 + 5 + 7 = 17.
+For n = 20, the sum of prime numbers up to 20 is 2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 = 77.
