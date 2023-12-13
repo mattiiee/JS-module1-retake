@@ -1,0 +1,28 @@
+Shopping Cart
+Create a class named ShoppingCart that represents a shopping cart. 
+It should have the following properties and methods:
+
+Properties:
+items (an array): Represents the items in the shopping cart. 
+Each item is an object with properties like:
+  -name (string): Name of the item.
+  -quantity (number): Quantity of the item.
+  -price (number): Price of a single item.
+
+
+Methods:
+constructor(): Initializes the shopping cart with an empty array for items.
+
+addItem(name, quantity, price): Adds a new item to the cart. If the item already exists in the cart, 
+increase the quantity. If any of the required details (name, quantity, price) are missing, 
+do not add the item and return undefined.
+
+removeItem(name): Removes the item with the given name from the cart. 
+If the item is not found, return undefined.
+
+updateQuantity(name, newQuantity): Updates the quantity of a particular item in the cart. 
+If the item is not found, return undefined.
+
+getTotalItemCount(): Returns the total number of items in the cart.
+
+getTotalPrice(): Returns the total price of all items in the cart.
